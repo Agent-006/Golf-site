@@ -14,11 +14,13 @@ h4all.forEach(function (element) {
         crsr.style.scale = 3;
         crsr.style.border = ".5px solid #fff";
         crsr.style.backgroundColor = "transparent";
+        crsr.style.transition = "scale 0.2s";
     });
     element.addEventListener("mouseleave", function () {
         crsr.style.scale = 1;
         crsr.style.border = "0px solid #95C11E";
         crsr.style.backgroundColor = "#95C11E";
+        crsr.style.transition = "scale 0.5s";
     });
 });
 
